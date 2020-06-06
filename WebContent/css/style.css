@@ -1,0 +1,53 @@
+#header{
+	background:lightblue;
+	height:100px;
+	width:auto;
+}
+
+#newPlayer,#recordWin,#recordLoss,#tournamentWinner,#PlayersOfTournament,#pendingRequests,#requestToJoin,#tournamentWinners,#deleted,#update {
+  display: none;
+}
+
+h1{
+	text-align:center;
+	color:white;
+	padding:30px;
+}
+
+button{
+	margin:20px;
+}
+
+.button1{
+	width:60px;
+	margin-left:600px;
+}
+
+table{
+	text-align:center;
+	margin-left:400px;
+	margin-bottom:10px;
+}
+
+form{
+	display:grid;
+	grid-template-rows: auto auto auto auto;
+	text-align:center;
+	margin:20px;
+}
+
+input{
+	width:100px;
+	margin:10px;
+	
+}
+
+li{
+	list-style: none;
+}
+
+
+ul{
+	display:grid;
+	grid-template-columns:80% 10% 10%;
+}
